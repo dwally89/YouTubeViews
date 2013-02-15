@@ -1,0 +1,11 @@
+﻿<Window x:Class="YouTube_Views_WPF.UsernameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Enter Username" Height="153" Width="414" WindowStartupLocation="CenterScreen" Icon="/YouTube%20Views%20WPF;component/Images/YouTube.ico">
+    <Grid>
+        <Label Content="Enter the username of the YouTube user whose data you want to see" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="260,46,0,0" Name="txtUsername" VerticalAlignment="Top" Width="120" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Left" Margin="230,78,0,0" Name="btnOK" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btnOK_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="311,78,0,0" Name="btnCancel" VerticalAlignment="Top" Width="75" IsCancel="True" Click="btnCancel_Click" />
+    </Grid>
+</Window>
