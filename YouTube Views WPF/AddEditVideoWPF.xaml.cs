@@ -10,6 +10,7 @@
     /// </summary>
     public partial class AddEditVideoWPF : Window
     {
+        /// TEST GIT
         /// <summary>
         /// Initializes a new instance of the <see cref="AddEditVideoWPF" /> class.
         /// </summary>
